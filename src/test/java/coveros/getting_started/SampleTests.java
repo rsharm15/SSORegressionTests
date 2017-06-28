@@ -16,7 +16,7 @@ public class SampleTests extends TestBase {
 	@BeforeClass(alwaysRun = true)
 	public void beforeClass() throws IOException {
 		// set the base URL for the tests here
-		setTestSite("http://www.google.com");
+		setTestSite("https://www.google.com");
 		// set the author of the tests here
 		setAuthor("Max Saperstone\n<br/>max.saperstone@coveros.com");
 		// set the version of the tests or of the software, possibly with a
